@@ -1,0 +1,378 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #ffb400;
+  --background-color: #404044;
+  --text-color: #000000;
+  --accent-color: #8b8b92;
+}
+
+body{
+    margin: 0;
+}
+   
+    .container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 50px;
+    z-index: 1;
+    background-color: var(--background-color);
+    opacity: 0.9;
+}
+
+
+#main-header {
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 35%;
+}
+.nav{
+    width: 50%;
+}
+.header-button{
+    width: 15%;
+}
+.logo h2 {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-color);
+    border: 2px solid;
+    max-width: 90px;
+    padding: 6px 10px;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 14px;
+    color: var(--primary-color);
+        font-family: "Roboto", sans-serif;
+
+}
+.nav a:hover{
+    color: var(--secondary-color);
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 0px 0px 60px 0px;
+    background-size: cover;
+
+    opacity: .9;
+}
+.containt h1 {
+    font-size: 84px;
+    font-family: "Indie Flower", cursive;
+    color: var(--primary-color);
+    padding-top: 95px ;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+.banner-a {
+    height: 250px;
+    display: flex
+;
+    align-items: end;
+    justify-content: center;
+}
+.banner-a a {
+    text-decoration: underline;
+    font-size: 25px;
+    padding: 8px 6px;
+    color: var(--primary-color);
+}
+.containt {
+    width: 100%;
+        align-items: end;
+    display: grid;
+    text-align: center;
+    height: 200px;
+
+}
+.button button {
+    padding: 12px 32px;
+    font-size: 15px;
+    font-family: "Indie Flower", cursive;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    margin-top: 30px;
+}
+.button button:hover{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.button {
+    text-align: center;
+        height: 180px;
+}
+.header-button button {
+    padding: 12px 32px;
+    font-size: 15px;
+    font-family: "Indie Flower", cursive;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+}
+.header-button button:hover{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+.insta-img{
+     background-image: url(	https://preview.colorlib.com/theme/tasty/images/insta-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        width: 270px;
+            display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+
+}
+.inner-insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.instagram-section button {
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--text-color);
+    margin: 20px 0;
+}
+.instagram-section{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.insta-img-one{
+     background-image: url(	https://preview.colorlib.com/theme/tasty/images/insta-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        width: 270px;
+            display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+
+}
+.insta-img-two{
+     background-image: url(		https://preview.colorlib.com/theme/tasty/images/insta-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        width: 270px;
+            display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+
+}
+.insta-img-three{
+     background-image: url(	https://preview.colorlib.com/theme/tasty/images/insta-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        width: 270px;
+            display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+
+}
+.insta-img-four{
+     background-image: url(		https://preview.colorlib.com/theme/tasty/images/insta-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        width: 270px;
+            display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+
+}
+
+.Information {
+
+    width: 50%;
+}
+.Information h1 {
+     font-size: 25px;
+    font-family:  "Roboto", sans-serif;
+    color: var(--text-color);
+   
+    font-weight: 300;
+    line-height: 1;
+}
+.Information p {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: var(--accent-color);
+    font-weight: 200;
+    border: 1px solid var(--accent-color);
+    height: 60px;
+    display: flex
+;
+    align-items: center;
+    padding: 0 15px;
+}
+.Information p:hover {
+    border: 1px solid var(--secondary-color);
+}
+.Information a{
+ text-decoration: none;
+ color: var(--secondary-color);
+ font-weight: 300;
+ padding-left: 10px;
+}
+.contact {
+    display: flex;
+    padding: 100px 0;
+}
+.contact-form {
+    width: 50%;
+    padding: 30px;
+}
+.contact-form input {
+    height: 50px;
+    width: 97%;
+    border: 1px solid var(--accent-color);
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--accent-color);
+    padding: 0 10px;
+}
+.contact-form input:focus{
+    background-color: rgb(245, 241, 250);
+
+}
+.contact-form input:hover{
+        border: 1px solid var(--secondary-color);
+
+}
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid;
+    height: 155px;
+     border: 1px solid var(--accent-color);
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--accent-color);
+    padding: 0 10px;
+}
+.contact-form textarea:hover{
+            border: 1px solid var(--secondary-color);
+
+}
+.contact-form textarea:focus{
+            background-color: rgb(245, 241, 250);
+
+}
+.contact-form button{
+     padding: 12px 32px;
+    font-size: 15px;
+    font-family: "Indie Flower", cursive;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    margin-top: 30px;
+}
+.contact-form button:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+        border: 2px solid var(--secondary-color);
+
+
+}
+footer{
+        background-color: var(--background-color);
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section {
+    width: 20%;
+    margin: 100px 0px;
+}
+.footer-section h1{
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: var(--primary-color);
+    font-family: "Roboto", sans-serif;
+}
+.footer-section p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--accent-color);
+}
+p.time:hover {
+    color: var(--primary-color);
+}
+
+p.time {
+    line-height: 30px;
+}
+.footer-section a {
+    text-decoration: none;
+    display: table;
+    line-height: 28px;
+    font-size: 20px;
+    color: var(--accent-color);
+}
+.footer-section a:hover {
+    color: var(--primary-color);
+}
+.footer-section input {
+    width: 200px;
+    height: 40px;
+    background-color: var(--background-color);
+    border: 2px solid var(--accent-color);
+}
+.footer-section .fa-solid {
+    --fa-style: 900;
+    position: relative;
+    bottom: 30px;
+    right: 110px;
+    width: 295px;
+    color:var(--accent-color) ;
+}
+.copy-right {
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--accent-color);
+}
+.icon {
+    margin: 20px 0px;
+    --fa: "\f081";
+    font-size: 45px;
+    color: var(--primary-color);
+    border-radius: 100px;
+}
